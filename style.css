@@ -1,5 +1,7 @@
 .backgr{
     background-color: black;
+    color: white;
+    font: Arial;
 }
 .fonttype1{
     font: Arial;
@@ -8,3 +10,4 @@
 .fonttype2{
     color: black;
 }
+
