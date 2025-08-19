@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cigó.jpeg">
     <title>tinysquid's lair</title>
 </head>
 <body class="backgr">
@@ -28,12 +29,17 @@
     <br>
     <audio controls> <source src="いますぐ輪廻 重音テトSVSynthV cover.mp3"> </audio> <h3 style="color: white;">Teto</h3>
     <br>
-    <button onclick = "kabbe()">Nyomj meg (egyszer mükszik)</button>
-    <h1 id = "szítkozódás" style="color: white;">Cigány</h1>
+    <button onclick="kabbe()">Nyomj meg</button>
+    <h3 id="valasz" style="color: white;">🤫</h3>
+
     <script>
-        function kabbe(){
-            document.getElementById("szítkozódás").innerHTML = "Nigger"
-        }
+    const uzenetek = ["Digger", "Trigger", "Bigger", "Big Black...", "NIGGER"];
+    let index = 0;
+
+    function kabbe() {
+        document.getElementById("valasz").innerText = uzenetek[index];
+        index = (index + 1) % uzenetek.length;
+    }
     </script>
 </body>
 </html>
