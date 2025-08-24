@@ -17,11 +17,6 @@
     </div>
     <div class="aha">
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <h1 class="aha">FORRÓ, SZINGLI ANYUKÁK A KÖZELEDBEN:</h1>
         <a class="aha" href="https://deltarune.com/secretpipis/">https://bongacams.com</a>
     </div>
@@ -45,6 +40,31 @@
         document.getElementById("valasz").innerText = uzenetek[index];
         index = (index + 1) % uzenetek.length;
     }
+    </script>
+    <h1 style="color: white;", id="énválasz">Nigger vagy?:</h1>
+    <input id="szöveg">
+    <button id="beadás">bead</button>
+    <script>
+        let answer;
+        document.getElementById("beadás").onclick = function(){
+            answer = document.getElementById("szöveg").value;
+            answer = answer.toLowerCase()
+            if(answer == "igen"){
+                document.getElementById("énválasz").textContent = "Helyes a válasz!";
+            }
+            else if(answer == "nem"){
+                document.getElementById("énválasz").textContent = "Helytelen a válasz! Te egy nigger vagy!";
+            }
+            else if(answer == "talán"){
+                document.getElementById("énválasz").textContent = "Hogy érted? Ha ránéznél magadra, akkor rájönnél, hogy egy nigger vagy";
+            }
+            else if(answer == ""){
+                document.getElementById("énválasz").textContent = "Válaszoljál te büdös nigger!";
+            }
+            else{
+                document.getElementById("énválasz").textContent = "Válaszolj rendesen te büdös nigger! Igen vagy nem!";
+            }
+        }   
     </script>
 </body>
 </html>
