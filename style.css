@@ -1,7 +1,5 @@
 .backgr{
     background-color: black;
-    color: white;
-    font: Arial;
 }
 .nyeh{
     font: Arial;
@@ -9,8 +7,42 @@
 }
 .aha{
     color: black;
-    font: Arial;
 }
-
-
-
+#képmertmiértne{
+    float: right;
+    width: 250px;
+    top: 50%;
+    margin-right: 100px;
+    /*
+    animation-name: Silksongtomorrow;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    */
+}
+#képmertmiértne:hover{
+    animation-name: nemripszem;
+    animation-duration: 2s;
+}
+/* blah blah blah bleh bleh bleh bluh bluh bluh, ha blublublublublublublublublublublublublublublublublublublu */
+/*@keyframes Silksongtomorrow{
+    0%{
+        transform: translateY(0%) rotate(0)
+    }
+    25%{
+        transform: translateY(100%) rotate(-45deg)
+    }
+    50%{
+        transform: translateY(0%) rotate(0)
+    }
+    75%{
+        transform: translateY(100%) rotate(45deg)
+    }
+    100%{
+        transform: translateY(0%) rotate(0)
+    }    
+}
+*/
+@keyframes nemripszem{
+    50%{box-shadow: 0px 0px 1000px white}
+}
